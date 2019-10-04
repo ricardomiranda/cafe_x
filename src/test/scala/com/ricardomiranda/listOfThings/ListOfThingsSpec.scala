@@ -1,5 +1,7 @@
 package com.ricardomiranda.listOfThings
 
-class ListOfThingsSpec {
+import org.scalatest.FunSuite
+
+class ListOfThingsSpec extends FunSuite {
 
 }
