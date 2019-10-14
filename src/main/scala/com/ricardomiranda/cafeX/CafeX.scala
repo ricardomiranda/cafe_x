@@ -1,4 +1,4 @@
-package com.ricardomiranda.listOfThings
+package com.ricardomiranda.cafeX
 
 case class Item(name: String, price: Double)
 
@@ -16,6 +16,7 @@ case class Menu(items: List[Item] = List(
 
 object Shopping {
   val menu = new Menu()
+
   def total(items: List[String], menu: Menu): Double = {
     items.map(i => menu.price(i, menu)).sum
   }

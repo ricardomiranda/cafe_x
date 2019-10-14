@@ -1,8 +1,8 @@
-package com.ricardomiranda.listOfThings
+package com.ricardomiranda.cafeX
 
 import org.scalatest.FunSuite
 
-class ListOfThingsSpec extends FunSuite {
+class CafeXSpec extends FunSuite {
   val menu = new Menu()
 
   test("Prie of 1 coffe") {
