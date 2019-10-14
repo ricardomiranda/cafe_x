@@ -15,3 +15,8 @@ object Shopping {
     items.map(menu.price(_)).sum
   }
 }
+
+object serviceCharge {
+  val hotFood: Set[String] = Set("Steak Sandwich")
+  val food: Set[String] = Set("Cheese Sandwich", "Steak Sandwich")
+}
