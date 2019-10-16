@@ -12,10 +12,10 @@ lazy val dependencies = Seq(
 
 lazy val root = (project in file("."))
   .settings(
-    mainClass in (Compile, packageBin) := Some("com.ricardomiranda.listOfThings.Main"),
-    name := "List of Things",
+    mainClass in (Compile, packageBin) := Some("com.ricardomiranda.cafeX.Main"),
+    name := "Cafe-X",
     libraryDependencies ++= dependencies
   )
 
 // Simple and constant jar name
-assemblyJarName in assembly := s"list_of_things.jar"
+assemblyJarName in assembly := s"cafe-x.jar"
